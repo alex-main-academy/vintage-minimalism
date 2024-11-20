@@ -1,0 +1,34 @@
+.programm {
+    padding: 8.5rem 0;
+}
+
+.programm__title {
+    margin-bottom: 4rem;
+}
+
+.programm__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: flex-start;
+    padding-left: 6.5rem;
+}
+
+.programm__item {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.programm__line {
+    height: .1rem;
+    width: 6.5rem;
+    background-color: $color-main;
+}
+
+.programm__time {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: $font-second;
+}

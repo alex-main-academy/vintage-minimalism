@@ -1,0 +1,45 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: $font-main;
+    color: $color-main;
+    line-height: 1.2;
+    background-image: url(../img/bg.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: center;
+}
+
+.wrapper {
+    overflow: hidden;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.wrapper-inner {
+    padding: 2rem 1.5rem 6rem;
+}
+
+.title {
+    position: relative;
+    font-family: $font-second;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+    span {
+        font-size: 3rem;
+    }
+}
+
+.text {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.center {
+    text-align: center;
+}

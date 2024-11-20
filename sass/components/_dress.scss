@@ -1,0 +1,38 @@
+.dress .container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.dress__list {
+    display: flex;
+    align-items: stretch;
+    gap: 3rem;
+    padding: 0 1.5rem;
+}
+
+.dress__item {
+    border-radius: 50%;
+    width: calc((100% - 12rem) / 4);
+    height: 6rem;
+
+    &--beuge {
+        background-color: #BEB19F;
+    }
+
+    &--gray {
+        background-color: #5A5044;
+    }
+
+    &--brown {
+        background-color: #6C532B;
+    }
+
+    &--dark-brown {
+        background-color: #533D1C;
+    }
+
+    &--dark {
+        background-color: #39250A;
+    }
+}
